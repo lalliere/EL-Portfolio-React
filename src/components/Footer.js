@@ -7,6 +7,7 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import DescriptionIcon from '@material-ui/icons/Description';
 import { pink } from '@material-ui/core/colors';
 import Typography from '@material-ui/core/Typography';
+import AlternateEmailIcon from '@material-ui/icons/AlternateEmail';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -41,6 +42,7 @@ export default function Footer() {
       <BottomNavigationAction target="_blank" href="https://github.com/lalliere" rel="noopener" style={{ color: pink[50] }} alt="Link to GitHub Repository" label="GitHub" value="github" icon={<GitHubIcon style={{ color: pink[50] }} />} />
       <BottomNavigationAction target="_blank" href="https://www.linkedin.com/in/emilylallier" rel="noopener" style={{ color: pink[50] }} label="LinkedIn" value="linkedin" icon={<LinkedInIcon style={{ color: pink[50] }}/>} />
       <BottomNavigationAction target="_blank" href="https://drive.google.com/file/d/19hPHDWf16moj5aqPjAHZbxC2N32V6gJq/view?usp=sharing" rel="noopener" style={{ color: pink[50] }} label="Resume" value="resume" icon={<DescriptionIcon style={{ color: pink[50] }} />} />
+      <BottomNavigationAction target="_blank" href="mailto:lallieremily@gmail.com" rel="noopener" style={{ color: pink[50] }} label="Email" value="email" icon={<AlternateEmailIcon style={{ color: pink[50] }} />} />
     </BottomNavigation>
   );
 }
