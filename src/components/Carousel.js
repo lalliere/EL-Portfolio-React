@@ -3,7 +3,6 @@ import { makeStyles } from '@material-ui/core/styles';
 import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
 import Typography from '@material-ui/core/Typography';
-import Logo from '../images/react-logo.png';
 
 const useStyles = makeStyles((theme) => ({
   root: {
