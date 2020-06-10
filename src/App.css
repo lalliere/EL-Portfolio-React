@@ -1,6 +1,7 @@
 .App {
   text-align: center;
-  background: linear-gradient(180deg, #D8F5FE 30%, #005C97  90%);
+  /* background: linear-gradient(180deg, rgb(148, 210, 230) 30%, #274060  90%); */
+  background-image: url("./images/tiny-squares.png");
 }
 
 .App-logo {
