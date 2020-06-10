@@ -12,7 +12,7 @@ import AlternateEmailIcon from '@material-ui/icons/AlternateEmail';
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    background: 'linear-gradient(45deg, #06A77D 30%, #005C97 90%)',
+    background: 'linear-gradient(45deg, #005C97 30%, #06A77D 90%)',
     border: 0,
     borderRadius: 3,
     boxShadow: '0 3px 5px 2px rgba(255, 105, 135, .3)',
@@ -20,10 +20,8 @@ const useStyles = makeStyles((theme) => ({
     padding: 0,
   },
   title: {
-    fontSize: "24pt",
+    fontSize: "22pt",
     fontWeight: "bold",
-    color: "#FFFFFF",
-    alignItems: "middle"
   }
   
 }));
@@ -38,7 +36,7 @@ export default function Footer() {
 
   return (
     <BottomNavigation position="sticky" value={value} onChange={handleChange} className={classes.root} showLabels>
-      <Typography className={classes.title}>Contact Me:</Typography>
+      <Typography className={classes.title} style={{ color: pink[50] }} mx="auto">Contact Me:</Typography>
       <BottomNavigationAction target="_blank" href="https://github.com/lalliere" rel="noopener" style={{ color: pink[50] }} alt="Link to GitHub Repository" label="GitHub" value="github" icon={<GitHubIcon style={{ color: pink[50] }} />} />
       <BottomNavigationAction target="_blank" href="https://www.linkedin.com/in/emilylallier" rel="noopener" style={{ color: pink[50] }} label="LinkedIn" value="linkedin" icon={<LinkedInIcon style={{ color: pink[50] }}/>} />
       <BottomNavigationAction target="_blank" href="https://drive.google.com/file/d/19hPHDWf16moj5aqPjAHZbxC2N32V6gJq/view?usp=sharing" rel="noopener" style={{ color: pink[50] }} label="Resume" value="resume" icon={<DescriptionIcon style={{ color: pink[50] }} />} />
