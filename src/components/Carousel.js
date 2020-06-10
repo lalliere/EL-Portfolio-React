@@ -29,9 +29,6 @@ const useStyles = makeStyles((theme) => ({
     background:
       'linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 70%, rgba(0,0,0,0) 100%)',
   },
-  space: {
-    margin: "20px"
-  },
 }));
 
 
@@ -80,7 +77,6 @@ export default function Carousel() {
               </GridListTile>
               ))}
           </GridList>
-          <Grid item xs={12} className={classes.space}></Grid>
         </div>
     </div>
   );
