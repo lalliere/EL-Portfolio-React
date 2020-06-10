@@ -11,6 +11,8 @@ import Typography from '@material-ui/core/Typography';
 const useStyles = makeStyles({
     root: {
         maxWidth: 345,
+        marginTop: "20px",
+        marginBottom: "0",
     },
     grid: {
         flexGrow: 1,
@@ -18,7 +20,7 @@ const useStyles = makeStyles({
     title: {
         fontWeight: "bold",
         textAlign: "left",
-        color: "#DE6161",
+        color: "#EF6F6C",
     },
     body: {
         color: "#005C97",
@@ -58,12 +60,6 @@ export default function Project(props) {
                             </Button>
             </CardActions>
         </Card>
-
-
-
-
-
-
 
 
 
