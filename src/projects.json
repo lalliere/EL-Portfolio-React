@@ -1,6 +1,6 @@
 [
     {
-        "img": "../public/logos/bbLogo.png",
+        "img": "bbLogo",
         "imgAlt": "Business Blueprint Image",
         "title": "Business Blueprint",
         "description": "Helping small businesses manage their daily operations by tracking their customer base, inventory, sales per customer, and issuing outstanding invoices.",
@@ -8,7 +8,7 @@
         "github": "https://github.com/lalliere/business-blueprint"
     },
     {
-        "img": "../public/logos/empDirReact.png",
+        "img": "empDirReact",
         "imgAlt": "Employee Directory Image",
         "title": "Employee Directory",
         "description": "This Employee Directory was built using React. It displays a table of all employees and allows the user to either sort the table or search the table for an employee by their First Name, Last Name, Phone Number, Email Address, or Department.",
@@ -16,7 +16,7 @@
         "github": "https://github.com/lalliere/employee-directory-react"
     },
     {
-        "img": "../public/logos/hikeshops.png",
+        "img": "hikeshops",
         "imgAlt": "Hikes & Hops Image",
         "title": "Hikes & Hops",
         "description": "Burn some calories and then reward yourself with a delicious meal! With this application you start with searching for hikes nearby your current location, or search for a certain city/state. From there you can search restaurants that are nearby your chosen trail!",
@@ -24,7 +24,7 @@
         "github": "https://github.com/lalliere/Project-1"
     },
     {
-        "img": "../public/logos/notetaker.png",
+        "img": "notetaker",
         "imgAlt": "Express Note Taker Image",
         "title": "Express Note Taker",
         "description": "This is a note taking application to help you keep track of all the tasks life throw's at you. With this app you can create and save notes, view previously saved notes, and delete previously saved notes.",
@@ -32,7 +32,7 @@
         "github": " https://github.com/lalliere/express-note-taker"
     },
     {
-        "img": "../public/logos/dayplanner.png",
+        "img": "dayplanner",
         "imgAlt": "Workday PLanner Image",
         "title": "Workday Planner",
         "description": "This simple calendar application allows the user to save events for each hour of the work day! If the page refreshes, all of your data will be and will still be there for you!",
@@ -40,7 +40,7 @@
         "github": "https://github.com/lalliere/work-day-scheduler"
     },
     {
-        "img": "../public/logos/burgerapp.png",
+        "img": "burgerapp",
         "imgAlt": "Eat-Da-Burger App Image",
         "title": "Eat-Da-Burger App",
         "description": "Eat-Da-Burger! is a wish list of burgers that allows the user to input the name of a burger that they wish to devour to add it to their list! Once they've eaten their dream burger, they can move it to the list of Burger Battles Won!",
