@@ -47,7 +47,7 @@ export default function Project(props) {
                     component="img"
                     alt={props.imgAlt}
                     height="194px"
-                    src={props.img}
+                    src={require(`../../public/logos/${props.img}.png`)}
                     title={props.title}
                 />
                 <CardContent>
