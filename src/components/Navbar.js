@@ -51,7 +51,7 @@ export default function NavBar() {
 
     return (
         <div>
-            <AppBar position="sticky" className={classes.root}> 
+            <AppBar position="fixed" className={classes.root}> 
                 <Toolbar>
                     <Typography variant="h6" className={classes.title}>
                         Emily Lallier
@@ -67,29 +67,29 @@ export default function NavBar() {
                     >
                         <MenuIcon />
                     </IconButton>
-                    <Menu
-                        id="menu-appbar"
-                        anchorEl={anchorEl}
-                        anchorOrigin={{
-                            vertical: 'top',
-                            horizontal: 'right',
-                        }}
-                        keepMounted
-                        transformOrigin={{
-                            vertical: 'top',
-                            horizontal: 'right',
-                        }}
-                        open={open}
-                        onClose={handleClose}
-                    >
-                        <BrowserRouter>
+                    <BrowserRouter>
+                        <Menu
+                            id="menu-appbar"
+                            anchorEl={anchorEl}
+                            anchorOrigin={{
+                                vertical: 'top',
+                                horizontal: 'right',
+                            }}
+                            keepMounted
+                            transformOrigin={{
+                                vertical: 'top',
+                                horizontal: 'right',
+                            }}
+                            open={open}
+                            onClose={handleClose}
+                        >
                             <Typography  variant="h6">
-                                <MenuItem className={classes.menuList} onClick={handleClose} component={Link} to="/about">About Me</MenuItem>
+                                <MenuItem className={classes.menuList} onClick={handleClose}><Link to="/about">About Me</Link></MenuItem>
                                 <MenuItem className={classes.menuList} onClick={handleClose} component={Link} to="/portfolio">My Work</MenuItem>
                                 <MenuItem className={classes.menuList} onClick={handleClose} component={Link} to="/languages">Programming Languages</MenuItem>
                             </Typography>
-                        </BrowserRouter>
-                    </Menu> 
+                        </Menu> 
+                    </BrowserRouter>
                 </Toolbar>
             </AppBar>
         </div>
