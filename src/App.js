@@ -28,7 +28,7 @@ class App extends React.Component {
                 <Grid item spacing={3} >
                   <Project 
                     img={project.img}
-                    alt={project.imgAlt}
+                    imgAlt={project.imgAlt}
                     title={project.title}
                     description={project.description}
                     deployed={project.deployed}
