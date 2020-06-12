@@ -1,5 +1,13 @@
 [
     {
+        "img": "abovecurve",
+        "imgAlt": "Above Curve Logo",
+        "title": "Above Curve",
+        "description": "In light of the current global pandemic, we want to support the advancement of medical research by standardizing a variety of public data sets for researchers to rapidly gain insights backed by reputable and cited sources.",
+        "deployed": "www.abovecure.com",
+        "github": "https://github.com/abovecurve/abovecurve-client"
+    },
+    {
         "img": "bbLogo",
         "imgAlt": "Business Blueprint Image",
         "title": "Business Blueprint",
@@ -30,14 +38,6 @@
         "description": "This is a note taking application to help you keep track of all the tasks life throw's at you. With this app you can create and save notes, view previously saved notes, and delete previously saved notes.",
         "deployed": "https://my-notetaker.herokuapp.com/",
         "github": " https://github.com/lalliere/express-note-taker"
-    },
-    {
-        "img": "dayplanner",
-        "imgAlt": "Workday PLanner Image",
-        "title": "Workday Planner",
-        "description": "This simple calendar application allows the user to save events for each hour of the work day! If the page refreshes, all of your data will be and will still be there for you!",
-        "deployed": "https://lalliere.github.io/work-day-scheduler/",
-        "github": "https://github.com/lalliere/work-day-scheduler"
     },
     {
         "img": "burgerapp",
