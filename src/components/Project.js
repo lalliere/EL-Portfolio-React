@@ -46,7 +46,7 @@ export default function Project(props) {
                     // className={classes.media}
                     component="img"
                     alt={props.imgAlt}
-                    height="194px"
+                    height="200px"
                     src={require(`../../public/logos/${props.img}.png`)}
                     title={props.title}
                 />
