@@ -84,7 +84,7 @@ export default function NavBar() {
                             onClose={handleClose}
                         >
                             <Typography  variant="h6">
-                                <MenuItem className={classes.menuList} onClick={handleClose}><Link to="/about">About Me</Link></MenuItem>
+                                <MenuItem className={classes.menuList} onClick={handleClose} component={Link} to="/about">About Me</MenuItem>
                                 <MenuItem className={classes.menuList} onClick={handleClose} component={Link} to="/portfolio">My Work</MenuItem>
                                 <MenuItem className={classes.menuList} onClick={handleClose} component={Link} to="/languages">Programming Languages</MenuItem>
                             </Typography>
