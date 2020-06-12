@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/EL-Portfolio-React/static/css/main.ea04fb87.chunk.css",
+    "main.js": "/EL-Portfolio-React/static/js/main.e6321ab5.chunk.js",
+    "main.js.map": "/EL-Portfolio-React/static/js/main.e6321ab5.chunk.js.map",
+    "runtime-main.js": "/EL-Portfolio-React/static/js/runtime-main.19a3b2f7.js",
+    "runtime-main.js.map": "/EL-Portfolio-React/static/js/runtime-main.19a3b2f7.js.map",
+    "static/js/2.5b047677.chunk.js": "/EL-Portfolio-React/static/js/2.5b047677.chunk.js",
+    "static/js/2.5b047677.chunk.js.map": "/EL-Portfolio-React/static/js/2.5b047677.chunk.js.map",
+    "index.html": "/EL-Portfolio-React/index.html",
+    "precache-manifest.1fd0b526de99e80a9f65d72464524043.js": "/EL-Portfolio-React/precache-manifest.1fd0b526de99e80a9f65d72464524043.js",
+    "service-worker.js": "/EL-Portfolio-React/service-worker.js",
+    "static/css/main.ea04fb87.chunk.css.map": "/EL-Portfolio-React/static/css/main.ea04fb87.chunk.css.map",
+    "static/js/2.5b047677.chunk.js.LICENSE.txt": "/EL-Portfolio-React/static/js/2.5b047677.chunk.js.LICENSE.txt",
+    "static/media/abovecurve.png": "/EL-Portfolio-React/static/media/abovecurve.92950c75.png",
+    "static/media/bbLogo.png": "/EL-Portfolio-React/static/media/bbLogo.a1e50d5a.png",
+    "static/media/burgerapp.png": "/EL-Portfolio-React/static/media/burgerapp.06b313b2.png",
+    "static/media/empDirReact.png": "/EL-Portfolio-React/static/media/empDirReact.c82bb3d9.png",
+    "static/media/headshot3.jpg": "/EL-Portfolio-React/static/media/headshot3.be8cec6f.jpg",
+    "static/media/hikeshops.png": "/EL-Portfolio-React/static/media/hikeshops.93582708.png",
+    "static/media/notetaker.png": "/EL-Portfolio-React/static/media/notetaker.3fa3c674.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.19a3b2f7.js",
+    "static/js/2.5b047677.chunk.js",
+    "static/css/main.ea04fb87.chunk.css",
+    "static/js/main.e6321ab5.chunk.js"
+  ]
+}
