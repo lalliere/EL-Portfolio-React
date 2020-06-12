@@ -2,7 +2,7 @@
 
 ## Welcome to Emily Lallier's Portfolio 
 
-### Link: https://lalliere.github.io/EL-Portfolio-React/
+### Link: https://bit.ly/emilylallier
 
 ### Got Questions?
 * Email: lallieremily@gmail.com
