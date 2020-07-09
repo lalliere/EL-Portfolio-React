@@ -12,25 +12,19 @@ const useStyles = makeStyles((theme) => ({
     title: {
         fontWeight: "bold",
         textAlign: "left",
-        color: "#EF6F6C",
+        color: "#916C80",
         fontStyle: "italic",
-    },
-    subtitle: {
-        fontWeight: "bold",
-        textAlign: "left",
-        color: "#EF6F6C",
-       
     },
     space: {
         margin: "30px",
     },
     paper: {
-        fontSize: "14pt",
+        fontSize: "16pt",
         // fontWeight: "medium",
-        color: "#005C97",
+        color: "#4E878C",
         display: 'flex',
         flexWrap: 'wrap',
-        padding: "20px",
+        padding: "10px 16px 10px 16px",
         width: "100%",
         margin: "0",
     }
@@ -41,9 +35,9 @@ export default function AboutMe() {
 
     return (
         <div className={classes.root}>
-            <Grid container spacing={1}>
+            <Grid container spacing={2}>
                 <Grid item xs={12}>
-                    <Typography className={classes.title} variant="h2" component="h1" gutterBottom>
+                    <Typography className={classes.title} variant="h2" component="h1">
                         About Me
                     </Typography>
                 </Grid>
@@ -55,10 +49,6 @@ export default function AboutMe() {
                     </img>
                 </Grid>
                 <Grid item xs={12} md={6}>
-                    <Typography className={classes.subtitle} variant="h2" component="h1">
-                        Emily Lallier
-                        {/* <hr></hr> */}
-                    </Typography>
                     <Typography>
                         <Paper className={classes.paper} elevation={3}>
                             Full Stack Web Developer with a background in project management and a Lean Yellow Belt. Certified in Full Stack Development from the University of New Hampshire, where I gained real-world experience with HTML, CSS, JavaScript, Node.js, MySQL, React.js, and responsive and accessible web design. I have a passion for developing clean, easy to use web applications that result in a positive end-user experience. I am dedicated to continuously learning and improving myself and my code. I stay organized in fast-paced situations and rely on logic to persevere when code isn't working how I planned. I adapt quickly and communicate effectively; this strength has come in handy more often than not when coding in teams. I am excited to employ Lean web design in order to build complex web applications that continually provide a cutting edge user experience.

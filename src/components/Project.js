@@ -15,25 +15,14 @@ const useStyles = makeStyles({
         marginTop: "20px",
         marginBottom: "0",
     },
-    grid: {
-        flexGrow: 1,
-    },
-    title: {
-        fontWeight: "bold",
-        textAlign: "left",
-        color: "#EF6F6C",
-    },
     body: {
-        color: "#005C97",
-        fontWeight: "bold",
-        padding: "15px",
-        paddingTop: "0",
-        marginTop: "0",
-        fontSize: "14pt"
+        fontSize: "12pt",
     },
-    // media: {
-    //     height: 140,
-    // },
+    button: {
+        margin: 'auto',
+        color: "#4E878C"
+    }
+
 });
 
 export default function Project(props) {
@@ -43,7 +32,6 @@ export default function Project(props) {
         <Card className={classes.root} elevation={3}>
             <CardActionArea>
                 <CardMedia
-                    // className={classes.media}
                     component="img"
                     alt={props.imgAlt}
                     height="200px"
@@ -53,15 +41,15 @@ export default function Project(props) {
                 <CardContent>
                     <Typography gutterBottom variant="h5" component="h2"> {props.title}
                     </Typography>
-                    <Typography variant="body2" color="textSecondary" component="p">{props.description}
+                    <Typography className={classes.body} variant="body2" color="textSecondary" component="p">{props.description}
                     </Typography>
                 </CardContent>
             </CardActionArea>
             <CardActions>
-                <Button size="small" color="primary" target="_blank" href={props.deployed} rel="noopener">
+                <Button className={classes.button} size="small" color="primary" target="_blank" href={props.deployed} rel="noopener">
                     View Site
                 </Button>
-                <Button size="small" color="primary" target="_blank" href={props.github} rel="noopener">
+                <Button className={classes.button} size="small" color="primary" target="_blank" href={props.github} rel="noopener">
                     See the Code
                 </Button>
             </CardActions>

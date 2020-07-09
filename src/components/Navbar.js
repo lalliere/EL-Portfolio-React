@@ -13,7 +13,7 @@ import { BrowserRouter, Link } from "react-router-dom";
 const useStyles = makeStyles((theme) => ({
     root: {
         flexGrow: 1,
-        background: 'linear-gradient(45deg, #005C97 30%, #06A77D  90%)',
+        background: '#916C80',
         border: 0,
         borderRadius: 3,
         boxShadow: '0 3px 5px 2px rgba(255, 105, 135, .3)',
