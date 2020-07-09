@@ -1,4 +1,6 @@
 import React from 'react';
+import Grid from '@material-ui/core/Grid';
+
 import './App.css';
 import Navbar from "./components/Navbar";
 import Wrapper from "./components/Wrapper";
@@ -7,9 +9,8 @@ import AboutMe from './components/AboutMe';
 import Carousel from "./components/Carousel";
 import Project from './components/Project';
 import projects from "./projects.json";
-import Routes from './components/Routes';
-import Grid from '@material-ui/core/Grid';
-
+import Title from "./components/Title";
+import Contact from "./components/Contact";
 
 
 class App extends React.Component {
@@ -18,14 +19,18 @@ class App extends React.Component {
     return (
       
       <div className="App">
+        {/* <Contact /> */}
+        <section id="aboutme"></section>
         <Navbar />
-        <Routes />
         <Wrapper>
+          {/* <Title align="center">Emily Lallier</Title> */}
           <AboutMe />
+          <section id="portfolio"></section>
+          <Title>My Projects</Title>
           <hr></hr>
-          <Grid container spacing={10}>
+          <Grid container justify="center" alignItems="stretch" spacing={10}> 
               {projects.map(project => (
-                <Grid item spacing={3} >
+                <Grid item>
                   <Project 
                     img={project.img}
                     imgAlt={project.imgAlt}
@@ -38,6 +43,7 @@ class App extends React.Component {
               ))}
               <Grid item xs={12} />
           </Grid>
+          <section id="languages"></section>
           <Carousel />
         </Wrapper>
         <Footer />
