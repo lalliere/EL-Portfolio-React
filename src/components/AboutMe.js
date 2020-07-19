@@ -1,11 +1,10 @@
 import React from 'react';
 import Typography from '@material-ui/core/Typography';
-import Headshot from '../images/headshot3.jpg';
 import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
 
-//916C80
+
 const useStyles = makeStyles((theme) => ({
     root: {
         flexGrow: 1,
@@ -21,7 +20,6 @@ const useStyles = makeStyles((theme) => ({
     },
     paper: {
         fontSize: "16pt",
-        // fontWeight: "medium",
         color: "#4E878C",
         display: 'flex',
         flexWrap: 'wrap',
