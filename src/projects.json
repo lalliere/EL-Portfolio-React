@@ -11,7 +11,7 @@
         "img": "bbLogo",
         "imgAlt": "Business Blueprint Image",
         "title": "Business Blueprint",
-        "description": "Helping small businesses manage their daily operations by tracking their customer base, inventory, sales per customer, and issuing outstanding invoices.",
+        "description": "Helping small businesses manage their daily operations by giving them the ability to track their customer base, inventory, and sales per customer, as well as issue any outstanding invoices. Future Development will allow for tracking of employees too.",
         "deployed": "https://business-blueprint.herokuapp.com/",
         "github": "https://github.com/lalliere/business-blueprint"
     },
@@ -27,7 +27,7 @@
         "img": "hikeshops",
         "imgAlt": "Hikes & Hops Image",
         "title": "Hikes & Hops",
-        "description": "Burn some calories and then reward yourself with a delicious meal! With this application you start with searching for hikes nearby your current location, or search for a certain city/state. From there you can search restaurants that are nearby your chosen trail!",
+        "description": "Burn some calories and then reward yourself with a delicious meal! With this application you can search for hiking trails as well as the weather forecast and a list of restaurants nearby your chosen trail!",
         "deployed": "https://lalliere.github.io/Project-1/",
         "github": "https://github.com/lalliere/Project-1"
     },
@@ -43,7 +43,7 @@
         "img": "burgerapp",
         "imgAlt": "Eat-Da-Burger App Image",
         "title": "Eat-Da-Burger App",
-        "description": "Eat-Da-Burger! is a wish list of burgers that allows the user to input the name of a burger that they wish to devour to add it to their list! Once they've eaten their dream burger, they can move it to the list of Burger Battles Won!",
+        "description": "Eat-Da-Burger! is a wish list of burgers that allows you to input the name of a burger that you dream of devouring and add it to your list! Once you've eaten your burger, move it to the list of Burger Battles Won!",
         "deployed": "https://burgerapp2020.herokuapp.com/",
         "github": "https://github.com/lalliere/burger"
     }
