@@ -1,29 +1,31 @@
 {
   "files": {
-    "main.css": "/EL-Portfolio-React/static/css/main.ea04fb87.chunk.css",
-    "main.js": "/EL-Portfolio-React/static/js/main.dae1f3ae.chunk.js",
-    "main.js.map": "/EL-Portfolio-React/static/js/main.dae1f3ae.chunk.js.map",
+    "main.css": "/EL-Portfolio-React/static/css/main.00bcd3df.chunk.css",
+    "main.js": "/EL-Portfolio-React/static/js/main.d9b07655.chunk.js",
+    "main.js.map": "/EL-Portfolio-React/static/js/main.d9b07655.chunk.js.map",
     "runtime-main.js": "/EL-Portfolio-React/static/js/runtime-main.4c5ffaa6.js",
     "runtime-main.js.map": "/EL-Portfolio-React/static/js/runtime-main.4c5ffaa6.js.map",
-    "static/js/2.89f3bd3d.chunk.js": "/EL-Portfolio-React/static/js/2.89f3bd3d.chunk.js",
-    "static/js/2.89f3bd3d.chunk.js.map": "/EL-Portfolio-React/static/js/2.89f3bd3d.chunk.js.map",
+    "static/js/2.404e2d7a.chunk.js": "/EL-Portfolio-React/static/js/2.404e2d7a.chunk.js",
+    "static/js/2.404e2d7a.chunk.js.map": "/EL-Portfolio-React/static/js/2.404e2d7a.chunk.js.map",
     "index.html": "/EL-Portfolio-React/index.html",
-    "precache-manifest.b275aac87ea9bbfb2390645dd3424079.js": "/EL-Portfolio-React/precache-manifest.b275aac87ea9bbfb2390645dd3424079.js",
+    "precache-manifest.49518166c6cc1b07f2ae4868cce08235.js": "/EL-Portfolio-React/precache-manifest.49518166c6cc1b07f2ae4868cce08235.js",
     "service-worker.js": "/EL-Portfolio-React/service-worker.js",
-    "static/css/main.ea04fb87.chunk.css.map": "/EL-Portfolio-React/static/css/main.ea04fb87.chunk.css.map",
-    "static/js/2.89f3bd3d.chunk.js.LICENSE.txt": "/EL-Portfolio-React/static/js/2.89f3bd3d.chunk.js.LICENSE.txt",
+    "static/css/main.00bcd3df.chunk.css.map": "/EL-Portfolio-React/static/css/main.00bcd3df.chunk.css.map",
+    "static/js/2.404e2d7a.chunk.js.LICENSE.txt": "/EL-Portfolio-React/static/js/2.404e2d7a.chunk.js.LICENSE.txt",
     "static/media/abovecurve.png": "/EL-Portfolio-React/static/media/abovecurve.92950c75.png",
     "static/media/bbLogo.png": "/EL-Portfolio-React/static/media/bbLogo.d2dbbb51.png",
     "static/media/burgerapp.png": "/EL-Portfolio-React/static/media/burgerapp.06b313b2.png",
     "static/media/empDirReact.png": "/EL-Portfolio-React/static/media/empDirReact.c82bb3d9.png",
     "static/media/headshot3.jpg": "/EL-Portfolio-React/static/media/headshot3.be8cec6f.jpg",
     "static/media/hikeshops.png": "/EL-Portfolio-React/static/media/hikeshops.4f8ddac6.png",
+    "static/media/logoPinkCircleThick.png": "/EL-Portfolio-React/static/media/logoPinkCircleThick.0d016488.png",
+    "static/media/App.css": "/EL-Portfolio-React/static/media/marble.62a49330.jpg",
     "static/media/notetaker.png": "/EL-Portfolio-React/static/media/notetaker.3fa3c674.png"
   },
   "entrypoints": [
     "static/js/runtime-main.4c5ffaa6.js",
-    "static/js/2.89f3bd3d.chunk.js",
-    "static/css/main.ea04fb87.chunk.css",
-    "static/js/main.dae1f3ae.chunk.js"
+    "static/js/2.404e2d7a.chunk.js",
+    "static/css/main.00bcd3df.chunk.css",
+    "static/js/main.d9b07655.chunk.js"
   ]
 }

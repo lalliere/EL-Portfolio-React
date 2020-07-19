@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5d01f32a79e24fe2390af4223536f4db",
+    "revision": "fac60e3d314e30e6b749a03bce8202d5",
     "url": "/EL-Portfolio-React/index.html"
   },
   {
-    "revision": "f8224bddd90e0f04ce5d",
-    "url": "/EL-Portfolio-React/static/css/main.ea04fb87.chunk.css"
+    "revision": "aa1b18b7b5415407a60b",
+    "url": "/EL-Portfolio-React/static/css/main.00bcd3df.chunk.css"
   },
   {
-    "revision": "efe3f7de839616b602a8",
-    "url": "/EL-Portfolio-React/static/js/2.89f3bd3d.chunk.js"
+    "revision": "82c61ae16a8dc1e52302",
+    "url": "/EL-Portfolio-React/static/js/2.404e2d7a.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/EL-Portfolio-React/static/js/2.89f3bd3d.chunk.js.LICENSE.txt"
+    "url": "/EL-Portfolio-React/static/js/2.404e2d7a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f8224bddd90e0f04ce5d",
-    "url": "/EL-Portfolio-React/static/js/main.dae1f3ae.chunk.js"
+    "revision": "aa1b18b7b5415407a60b",
+    "url": "/EL-Portfolio-React/static/js/main.d9b07655.chunk.js"
   },
   {
     "revision": "e97f86ef301659232c7e",
@@ -46,6 +46,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4f8ddac65503edb46c9b8ed286788443",
     "url": "/EL-Portfolio-React/static/media/hikeshops.4f8ddac6.png"
+  },
+  {
+    "revision": "0d0164885c37fa78c70b01031a2b0228",
+    "url": "/EL-Portfolio-React/static/media/logoPinkCircleThick.0d016488.png"
+  },
+  {
+    "revision": "62a49330996889aa324292a1ea73ae50",
+    "url": "/EL-Portfolio-React/static/media/marble.62a49330.jpg"
   },
   {
     "revision": "3fa3c67459ec12940c6a8a1c07592f2e",
