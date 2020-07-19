@@ -19,11 +19,14 @@ class App extends React.Component {
     return (
       
       <div className="App">
-        {/* <Contact /> */}
-        <section id="aboutme"></section>
         <Navbar />
         <Wrapper>
-          {/* <Title align="center">Emily Lallier</Title> */}
+        <section id="contact"></section>
+          <Title align="center">Emily Lallier</Title>
+          <hr></hr>
+          <Contact />
+          <section id="aboutme"></section>
+          <Grid item xs={12} style={{marginBottom: "40px"}} />
           <AboutMe />
           <section id="portfolio"></section>
           <Title>My Projects</Title>
