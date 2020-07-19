@@ -22,7 +22,7 @@ const useStyles = makeStyles((theme) => ({
   title: {
     fontWeight: "bold",
     textAlign: "left",
-    color: "#916C80",
+    color: "#8CAAA8",
     fontStyle: "italic",
   },
   titleBar: {
