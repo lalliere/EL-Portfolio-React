@@ -10,7 +10,6 @@ import DescriptionIcon from '@material-ui/icons/Description';
 import AlternateEmailIcon from '@material-ui/icons/AlternateEmail';
 
 
-// 916C80, 8CAAA8
 const useStyles = makeStyles((theme) => ({
     root: {
         flexGrow: 1,
@@ -33,8 +32,7 @@ const useStyles = makeStyles((theme) => ({
         height: "35%",
         width: "35%",
         color: "#8CAAA8",
-        marginLeft: "100px",
-        marginRight: "-10px",
+        marginLeft: "85px",
         marginBottom: "20px"
     },
 }));
@@ -63,16 +61,16 @@ export default function AboutMe() {
                                         Contact Me
                                     </Typography>
                                 </Grid>
-                                <Grid item xs={12} md={6} xl={6}> 
+                                <Grid item xs={12} md={5} xl={5}> 
                                     <a target="_blank" href="https://github.com/lalliere" rel="noopener noreferrer" alt="Link to Emily's GitHub Repository" label="GitHub" value="github"><GitHubIcon className={classes.icons} /></a>
                                 </Grid>
-                                <Grid item xs={12} md={6} xl={6}> 
+                                <Grid item xs={12} md={5} xl={5}> 
                                     <a target="_blank" href="https://www.linkedin.com/in/emilylallier" rel="noopener noreferrer" alt="Link to Emily's LinkedIn Profile" label="LinkedIn" value="linkedin"><LinkedInIcon className={classes.icons} /></a>
                                 </Grid>                          
-                                <Grid item xs={12} md={6} xl={6}>
+                                <Grid item xs={12} md={5} xl={5}>
                                     <a target="_blank" href="https://docs.google.com/document/d/1hN2ca44sVRXDu0_XmmqLY2k66onsEktXDYZEJvfzwFU/edit?usp=sharing" rel="noopener noreferrer" alt="Link to Emily's Resume" label="Resume" value="resume"><DescriptionIcon className={classes.icons} /></a>
                                 </Grid>
-                                <Grid item xs={12} md={6} xl={6}> 
+                                <Grid item xs={12} md={5} xl={5}> 
                                     <a target="_blank" href="mailto:lallieremily@gmail.com" rel="noopener noreferrer" alt="Link to Send Emily an Email" label="Email" value="email"><AlternateEmailIcon className={classes.icons} /></a>
                                 </Grid>
                            
