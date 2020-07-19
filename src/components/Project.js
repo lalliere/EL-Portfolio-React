@@ -17,6 +17,7 @@ const useStyles = makeStyles({
     },
     body: {
         fontSize: "12pt",
+        height: "140px",
     },
     button: {
         margin: 'auto',
