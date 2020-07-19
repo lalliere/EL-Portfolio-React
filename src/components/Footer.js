@@ -1,13 +1,9 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import BottomNavigation from '@material-ui/core/BottomNavigation';
-import BottomNavigationAction from '@material-ui/core/BottomNavigationAction';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import GitHubIcon from '@material-ui/icons/GitHub';
-import DescriptionIcon from '@material-ui/icons/Description';
-import { grey } from '@material-ui/core/colors';
+import CopyrightIcon from '@material-ui/icons/Copyright';
 import Typography from '@material-ui/core/Typography';
-import AlternateEmailIcon from '@material-ui/icons/AlternateEmail';
+import Grid from '@material-ui/core/Grid';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -25,25 +21,21 @@ const useStyles = makeStyles((theme) => ({
   title: {
     fontSize: "20pt",
     fontWeight: "bold",
+    fontStyle: "italic",
   }
   
 }));
 
 export default function Footer() {
   const classes = useStyles();
-  const [value, setValue] = React.useState(0);
-
-  const handleChange = (event, newValue) => {
-    setValue(newValue);
-  };
 
   return (
-    <BottomNavigation position="sticky" value={value} onChange={handleChange} className={classes.root} showLabels>
-      <Typography className={classes.title} mx="auto">Contact Me:</Typography>
-      <BottomNavigationAction target="_blank" href="https://github.com/lalliere" rel="noopener" style={{ color: grey[50] }} alt="Link to GitHub Repository" label="GitHub" value="github" icon={<GitHubIcon style={{ color: grey[50] }} />} />
-      <BottomNavigationAction target="_blank" href="https://www.linkedin.com/in/emilylallier" rel="noopener" style={{ color: grey[50] }} label="LinkedIn" value="linkedin" icon={<LinkedInIcon style={{ color: grey[50] }}/>} />
-      <BottomNavigationAction target="_blank" href="https://drive.google.com/file/d/19hPHDWf16moj5aqPjAHZbxC2N32V6gJq/view?usp=sharing" rel="noopener" style={{ color: grey[50] }} label="Resume" value="resume" icon={<DescriptionIcon style={{ color: grey[50] }} />} />
-      <BottomNavigationAction target="_blank" href="mailto:lallieremily@gmail.com" rel="noopener" style={{ color: grey[50] }} label="Email" value="email" icon={<AlternateEmailIcon style={{ color: grey[50] }} />} />
+    <BottomNavigation position="sticky" className={classes.root}>
+        <Grid justify="center" alignItems="center" container>
+          <Grid item>
+            <Typography className={classes.title}>Copyright 2020 <CopyrightIcon /></Typography>
+          </Grid>
+        </Grid>
     </BottomNavigation>
   );
 }
