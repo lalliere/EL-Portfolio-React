@@ -50,6 +50,7 @@ export default function AboutMe() {
                     <img
                         src={Headshot}
                         alt="Emily Lallier Headshot"
+                        height="90%"
                     >
                     </img>
                 </Grid>
