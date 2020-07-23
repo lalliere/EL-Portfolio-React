@@ -5,12 +5,11 @@ import './App.css';
 import Navbar from "./components/Navbar";
 import Wrapper from "./components/Wrapper";
 import Footer from './components/Footer';
-import AboutMe from './components/AboutMe';
 import Carousel from "./components/Carousel";
 import Project from './components/Project';
 import projects from "./projects.json";
 import Title from "./components/Title";
-import Contact from "./components/Contact";
+import AboutContact from "./components/AboutContact";
 
 
 class App extends React.Component {
@@ -21,14 +20,13 @@ class App extends React.Component {
       <div className="App">
         <Navbar />
         <Wrapper>
-        <section id="contact"></section>
+          <section id="aboutme"></section>
           <Title align="center">Emily Lallier</Title>
           <hr></hr>
-          <Contact />
-          <section id="aboutme"></section>
-          <Grid item xs={12} style={{marginBottom: "40px"}} />
-          <AboutMe />
+        <section id="contact"></section>
+          <AboutContact />
           <section id="portfolio"></section>
+          <Grid item xs={12} style={{marginBottom: "40px"}} />  
           <Title>My Projects</Title>
           <hr></hr>
           <Grid container justify="center" alignItems="stretch" spacing={10}> 
