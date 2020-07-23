@@ -33,7 +33,7 @@ export default function Footer() {
     <BottomNavigation position="sticky" className={classes.root}>
         <Grid justify="center" alignItems="center" container>
           <Grid item>
-            <Typography className={classes.title}>Copyright 2020 <CopyrightIcon /></Typography>
+            <Typography className={classes.title}>Emily Lallier 2020 <CopyrightIcon /></Typography>
           </Grid>
         </Grid>
     </BottomNavigation>
