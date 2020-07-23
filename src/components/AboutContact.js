@@ -17,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
     },
     title: {
         fontWeight: "bold",
-        color: "#916C80",
+        color: "#8CAAA8",
         fontStyle: "italic",   
     },
     space: {
@@ -29,7 +29,7 @@ const useStyles = makeStyles((theme) => ({
     },
     bio: {
         fontSize: "16pt",
-        color: "#4E878C",
+        color: "#916C80 ",
         display: 'flex',
         flexWrap: 'wrap',
         padding: "20px",
@@ -49,22 +49,23 @@ const useStyles = makeStyles((theme) => ({
           },
     },
     icon: {
-        color: "#A1C5E6",
+        color: "#8CAAA8",
     }
 }));
 
-export default function AboutMe() {
+export default function AboutContact() {
     const classes = useStyles();
 
     return (
         <div className={classes.root}>
-            <Grid container> 
+            <Grid container > 
                 <Grid item xs={12} className={classes.space} />
                 <Grid item xs={12} sm={12} md={5} lg={5}>
                     <img
                         src={Headshot}
                         alt="Emily Lallier Headshot"
                         height="85%"
+                        align="center"
                     >
                     </img>
                 </Grid>
