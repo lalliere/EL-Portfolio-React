@@ -4,9 +4,16 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import Grid from "@material-ui/core/Grid";
+import Button from '@material-ui/core/Button';
+import Menu from '@material-ui/core/Menu';
+import MenuItem from '@material-ui/core/MenuItem';
+import Fade from '@material-ui/core/Fade';
+import MenuIcon from '@material-ui/icons/Menu';
 import { BrowserRouter } from "react-router-dom";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+
 import Logo from "../images/logoPinkCircleThick.png";
+
 
 // de6161 916C80
 const useStyles = makeStyles((theme) => ({
@@ -27,21 +34,35 @@ const useStyles = makeStyles((theme) => ({
         fontSize: '24pt',
     },
     links: {
-        padding: theme.spacing(3),
         textDecoration: "none",
-        color: "#ffffff",
+        color: "#4D536E",
         '&:hover': {
-            color: "#E5DCE1",
-            borderTop: "1px solid rgba(0, 0, 0, 0.42)",
+            color: "#8CAAA8",
+            borderBottom: "1px solid rgba(0, 0, 0, 0.42)",
             borderColor: "#5BAthg",
-            borderTopWidth: 4
+            borderBottomWidth: 4
         },
-        
+    },
+    menu: {
+        color: "#E5DCE1",
+        paddingTop: 0,
+
     },
 }));
 
 export default function NavBar() {
     const classes = useStyles();
+
+    const [anchorEl, setAnchorEl] = React.useState(null);
+    const open = Boolean(anchorEl);
+
+    const handleClick = (event) => {
+        setAnchorEl(event.currentTarget);
+    };
+
+    const handleClose = () => {
+        setAnchorEl(null);
+    };
     
     return (
         <div>
@@ -57,14 +78,26 @@ export default function NavBar() {
                             </img>
                         </Grid>
                         <Grid item>
-                            <BrowserRouter>
-                                <Typography  variant="h6">
-                                    <AnchorLink className={ classes.links } href="#aboutme">About Me</AnchorLink>
-                                    <AnchorLink className={ classes.links } href="#contact">Contact</AnchorLink>
-                                    <AnchorLink className={ classes.links } href="#portfolio">Portfolio</AnchorLink>
-                                    <AnchorLink className={ classes.links } href="#languages">Programming Languages</AnchorLink>
-                                </Typography>
-                            </BrowserRouter>
+                            <Button aria-controls="fade-menu" aria-haspopup="true" onClick={handleClick} className={ classes.menu }>
+                                <MenuIcon  fontSize="large"/>
+                            </Button>
+                            <Menu
+                                id="fade-menu"
+                                anchorEl={anchorEl}
+                                keepMounted
+                                open={open}
+                                onClose={handleClose}
+                                TransitionComponent={Fade}
+                            >
+                                <BrowserRouter>
+                                    <Typography  variant="h6">
+                                        <MenuItem onClick={handleClose}><AnchorLink className={ classes.links } href="#aboutme">About Me</AnchorLink></MenuItem>
+                                        <MenuItem onClick={handleClose}><AnchorLink className={ classes.links } href="#contact">Contact</AnchorLink></MenuItem>
+                                        <MenuItem onClick={handleClose}><AnchorLink className={ classes.links } href="#portfolio">Portfolio</AnchorLink></MenuItem>
+                                        <MenuItem onClick={handleClose}><AnchorLink className={ classes.links } href="#languages">Languages</AnchorLink></MenuItem>
+                                    </Typography>
+                                </BrowserRouter>
+                            </Menu>
                         </Grid>
                     </Grid>
                 </Toolbar>
