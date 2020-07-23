@@ -66,7 +66,7 @@ export default function Carousel() {
   return (
     <div>
         <Typography className={classes.title} variant="h2" component="h1" gutterBottom>
-            My Programming Languages
+            Programming Languages
         </Typography>
         <hr></hr>
         <div className={classes.root}>
