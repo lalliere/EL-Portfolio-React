@@ -59,8 +59,8 @@ export default function NavBar() {
                         <Grid item>
                             <BrowserRouter>
                                 <Typography  variant="h6">
-                                    <AnchorLink className={ classes.links } href="#contact">Contact</AnchorLink>
                                     <AnchorLink className={ classes.links } href="#aboutme">About Me</AnchorLink>
+                                    <AnchorLink className={ classes.links } href="#contact">Contact</AnchorLink>
                                     <AnchorLink className={ classes.links } href="#portfolio">Portfolio</AnchorLink>
                                     <AnchorLink className={ classes.links } href="#languages">Programming Languages</AnchorLink>
                                 </Typography>
