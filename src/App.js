@@ -27,7 +27,7 @@ class App extends React.Component {
           <AboutContact />
           <section id="portfolio"></section>
           <Grid item xs={12} style={{marginBottom: "40px"}} />  
-          <Title>My Projects</Title>
+          <Title>Portfolio</Title>
           <hr></hr>
           <Grid container justify="center" alignItems="stretch" spacing={10}> 
               {projects.map(project => (
