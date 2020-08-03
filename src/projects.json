@@ -4,8 +4,8 @@
         "imgAlt": "Above Curve Logo",
         "title": "Above Curve",
         "description": "In light of the current global pandemic, we want to support the advancement of medical research by standardizing a variety of public data sets for researchers to rapidly gain insights backed by reputable and cited sources.",
-        "deployed": "www.abovecure.com",
-        "github": "https://github.com/abovecurve/abovecurve-client"
+        "deployed": "https://lalliere.github.io/abovecurve-sample/",
+        "github": "https://github.com/lalliere/abovecurve-sample"
     },
     {
         "img": "bbLogo",
