@@ -5,12 +5,13 @@ import './App.css';
 import Navbar from "./components/Navbar";
 import Wrapper from "./components/Wrapper";
 import Footer from './components/Footer';
-import Carousel from "./components/Carousel";
 import Project from './components/Project';
-import projects from "./projects.json";
 import Title from "./components/Title";
-import AboutContact from "./components/AboutContact";
+import About from "./components/About";
+import Skills from "./components/Skills";
+import Contact from "./components/Contact";
 
+import projects from "./projects.json";
 
 class App extends React.Component {
 
@@ -20,11 +21,12 @@ class App extends React.Component {
       <div className="App">
         <Navbar />
         <Wrapper>
-          <section id="aboutme"></section>
+          <section id="about"></section>
           <Title align="center">Emily Lallier</Title>
           <hr></hr>
-        <section id="contact"></section>
-          <AboutContact />
+          <About />
+          <section id="contact"></section>
+          <Contact />
           <section id="portfolio"></section>
           <Grid item xs={12} style={{marginBottom: "40px"}} />  
           <Title>Portfolio</Title>
@@ -44,8 +46,8 @@ class App extends React.Component {
               ))}
               <Grid item xs={12} />
           </Grid>
-          <section id="languages"></section>
-          <Carousel />
+          <section id="skills"></section>
+          <Skills />
         </Wrapper>
         <Footer />
       </div>
