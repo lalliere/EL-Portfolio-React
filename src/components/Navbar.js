@@ -91,10 +91,10 @@ export default function NavBar() {
                             >
                                 <BrowserRouter>
                                     <Typography  variant="h6">
-                                        <MenuItem onClick={handleClose}><AnchorLink className={ classes.links } href="#aboutme">About Me</AnchorLink></MenuItem>
+                                        <MenuItem onClick={handleClose}><AnchorLink className={ classes.links } href="#about">About Me</AnchorLink></MenuItem>
                                         <MenuItem onClick={handleClose}><AnchorLink className={ classes.links } href="#contact">Contact</AnchorLink></MenuItem>
                                         <MenuItem onClick={handleClose}><AnchorLink className={ classes.links } href="#portfolio">Portfolio</AnchorLink></MenuItem>
-                                        <MenuItem onClick={handleClose}><AnchorLink className={ classes.links } href="#languages">Languages</AnchorLink></MenuItem>
+                                        <MenuItem onClick={handleClose}><AnchorLink className={ classes.links } href="#skills">Skills</AnchorLink></MenuItem>
                                     </Typography>
                                 </BrowserRouter>
                             </Menu>
